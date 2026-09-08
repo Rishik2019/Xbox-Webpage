@@ -1,0 +1,120 @@
+/*
+COLOR PALETTE
+Xbox Green: #107C10
+About Green: #159A15
+Dark Background: #121212
+About Background: #F5F7F5
+White: #FFFFFF
+Black: #000000
+Dark Gray: #333333
+*/
+
+/* Styles the overall page background and default font. */
+body {
+    margin: 0;
+    background-color: #F5F7F5;
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+}
+
+/* Styles the main header to match the other pages. */
+header {
+    background-color: #121212;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles the main Xbox heading. */
+header h1 {
+    margin: 0;
+    color: #159A15;
+    font-family: Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+/* Styles the About page subtitle. */
+header h2 {
+    color: #FFFFFF;
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+}
+
+/* Styles the navigation area below the header. */
+nav {
+    margin-top: 15px;
+}
+
+/* Styles the navigation links. */
+nav a {
+    color: #159A15;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Changes the navigation link color when the mouse moves over it. */
+nav a:hover {
+    color: #107C10;
+    text-decoration: underline;
+}
+
+/* Styles the main content area of the About page. */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* Adds space between the different sections. */
+section {
+    margin-bottom: 25px;
+}
+
+/* Styles the headings for each section. */
+section h3 {
+    color: #159A15;
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    border-bottom: 2px solid #159A15;
+    padding-bottom: 6px;
+}
+
+/* Styles the paragraphs on the About page. */
+section p {
+    color: #333333;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Styles the LinkedIn social media link. */
+.social-link {
+    color: #159A15;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Changes the LinkedIn link when the mouse moves over it. */
+.social-link:hover {
+    color: #107C10;
+    text-decoration: underline;
+}
+
+/* Styles the footer at the bottom of the page. */
+footer {
+    background-color: #121212;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Styles the text inside the footer. */
+footer p {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
