@@ -61,17 +61,27 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Styles the main content area of the About page. */
+/* Creates a CSS Grid layout for the main About page content. */
 main {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #FFFFFF;
+
+    /* Creates two columns for the main content. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
 }
 
-/* Adds space between the different sections. */
+/* Adds spacing and structure to each section in the grid. */
 section {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+/* Makes the Social Media section take up both columns. */
+section:last-child {
+    grid-column: 1 / 3;
 }
 
 /* Styles the headings for each section. */
@@ -103,6 +113,18 @@ section p {
 .social-link:hover {
     color: #107C10;
     text-decoration: underline;
+}
+
+/* Changes the grid to one column on smaller screens. */
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    /* Makes the Social Media section fit the single-column layout. */
+    section:last-child {
+        grid-column: 1;
+    }
 }
 
 /* Styles the footer at the bottom of the page. */
